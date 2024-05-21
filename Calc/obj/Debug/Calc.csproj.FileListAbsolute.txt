@@ -13,3 +13,18 @@ H:\СТП\Calc\Calc\obj\Debug\Calc.csproj.GenerateResource.cache
 H:\СТП\Calc\Calc\obj\Debug\Calc.csproj.CoreCompileInputs.cache
 H:\СТП\Calc\Calc\obj\Debug\Calc.exe
 H:\СТП\Calc\Calc\obj\Debug\Calc.pdb
+C:\Users\sasha\OneDrive\Рабочий стол\Calc\Calc\bin\Debug\Calc.exe.config
+C:\Users\sasha\OneDrive\Рабочий стол\Calc\Calc\bin\Debug\Calc.exe
+C:\Users\sasha\OneDrive\Рабочий стол\Calc\Calc\bin\Debug\Calc.pdb
+C:\Users\sasha\OneDrive\Рабочий стол\Calc\Calc\obj\Debug\Calc.csproj.AssemblyReference.cache
+C:\Users\sasha\OneDrive\Рабочий стол\Calc\Calc\obj\Debug\MainWindow.g.cs
+C:\Users\sasha\OneDrive\Рабочий стол\Calc\Calc\obj\Debug\App.g.cs
+C:\Users\sasha\OneDrive\Рабочий стол\Calc\Calc\obj\Debug\Calc_MarkupCompile.cache
+C:\Users\sasha\OneDrive\Рабочий стол\Calc\Calc\obj\Debug\Calc_MarkupCompile.lref
+C:\Users\sasha\OneDrive\Рабочий стол\Calc\Calc\obj\Debug\MainWindow.baml
+C:\Users\sasha\OneDrive\Рабочий стол\Calc\Calc\obj\Debug\Calc.g.resources
+C:\Users\sasha\OneDrive\Рабочий стол\Calc\Calc\obj\Debug\Calc.Properties.Resources.resources
+C:\Users\sasha\OneDrive\Рабочий стол\Calc\Calc\obj\Debug\Calc.csproj.GenerateResource.cache
+C:\Users\sasha\OneDrive\Рабочий стол\Calc\Calc\obj\Debug\Calc.csproj.CoreCompileInputs.cache
+C:\Users\sasha\OneDrive\Рабочий стол\Calc\Calc\obj\Debug\Calc.exe
+C:\Users\sasha\OneDrive\Рабочий стол\Calc\Calc\obj\Debug\Calc.pdb

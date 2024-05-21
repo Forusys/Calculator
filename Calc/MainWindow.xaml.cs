@@ -71,7 +71,6 @@ namespace Calc
             {
                 outputTBox.Text = outputText.Remove(outputText.Length - 1, 1);
             }
-
         }
 
         private void inputMathFunctionButton_Click(object sender, RoutedEventArgs e)
@@ -85,46 +84,47 @@ namespace Calc
             {
                 number = matches[matches.Count-1].Value.ToString();
                 numberLength = number.Length;
-            }
-            double calcNumber = Convert.ToDouble(number);
-            switch ((e.Source as Button).Content.ToString())
-            {
-                case "Cos":
-                    functionFormat = Math.Cos(calcNumber);
-                    outputText = outputText.Substring(0, outputText.Length - numberLength);
-                    outputText += string.Format("{0:0.0000}", functionFormat);
-                    outputTBox.Text = outputText;
-                    break;
-                case "Sin":
-                    functionFormat = Math.Sin(calcNumber);
-                    outputText = outputText.Substring(0, outputText.Length - numberLength);
-                    outputText += string.Format("{0:0.0000}", functionFormat);
-                    outputTBox.Text = outputText;
-                    break;
-                case "Tan":
-                    functionFormat = Math.Tan(calcNumber);
-                    outputText = outputText.Substring(0, outputText.Length - numberLength);
-                    outputText += string.Format("{0:0.0000}", functionFormat);
-                    outputTBox.Text = outputText;
-                    break;
-                case "√":
-                    functionFormat = Math.Sqrt(calcNumber);
-                    outputText = outputText.Substring(0, outputText.Length - numberLength);
-                    outputText += string.Format("{0:0.0000}", functionFormat);
-                    outputTBox.Text = outputText;
-                    break;
-                case "Х²":
-                    functionFormat = Math.Pow(calcNumber, 2);
-                    outputText = outputText.Substring(0, outputText.Length - numberLength);
-                    outputText += functionFormat;
-                    outputTBox.Text = outputText;
-                    break;
-                case "X³":
-                    functionFormat = Math.Pow(calcNumber, 3);
-                    outputText = outputText.Substring(0, outputText.Length - numberLength);
-                    outputText += functionFormat;
-                    outputTBox.Text = outputText;
-                    break;
+                double calcNumber = Convert.ToDouble(number);
+
+                switch ((e.Source as Button).Content.ToString())
+                {
+                    case "Cos":
+                        functionFormat = Math.Cos(calcNumber);
+                        outputText = outputText.Substring(0, outputText.Length - numberLength);
+                        outputText += string.Format("{0:0.0000}", functionFormat);
+                        outputTBox.Text = outputText;
+                        break;
+                    case "Sin":
+                        functionFormat = Math.Sin(calcNumber);
+                        outputText = outputText.Substring(0, outputText.Length - numberLength);
+                        outputText += string.Format("{0:0.0000}", functionFormat);
+                        outputTBox.Text = outputText;
+                        break;
+                    case "Tan":
+                        functionFormat = Math.Tan(calcNumber);
+                        outputText = outputText.Substring(0, outputText.Length - numberLength);
+                        outputText += string.Format("{0:0.0000}", functionFormat);
+                        outputTBox.Text = outputText;
+                        break;
+                    case "√":
+                        functionFormat = Math.Sqrt(calcNumber);
+                        outputText = outputText.Substring(0, outputText.Length - numberLength);
+                        outputText += string.Format("{0:0.0000}", functionFormat);
+                        outputTBox.Text = outputText;
+                        break;
+                    case "Х²":
+                        functionFormat = Math.Pow(calcNumber, 2);
+                        outputText = outputText.Substring(0, outputText.Length - numberLength);
+                        outputText += functionFormat;
+                        outputTBox.Text = outputText;
+                        break;
+                    case "X³":
+                        functionFormat = Math.Pow(calcNumber, 3);
+                        outputText = outputText.Substring(0, outputText.Length - numberLength);
+                        outputText += functionFormat;
+                        outputTBox.Text = outputText;
+                        break;
+                }
             }
         }
 
@@ -164,11 +164,9 @@ namespace Calc
                                 break;
                         }
                     }
-
                 }
                 outputTBox.Text = $"{result}";
             }
-
         }
 
         private void negativeNumberButton_Click(object sender, RoutedEventArgs e)
