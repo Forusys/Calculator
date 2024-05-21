@@ -1,0 +1,15 @@
+H:\СТП\Calc\Calc\bin\Debug\Calc.exe.config
+H:\СТП\Calc\Calc\bin\Debug\Calc.exe
+H:\СТП\Calc\Calc\bin\Debug\Calc.pdb
+H:\СТП\Calc\Calc\obj\Debug\Calc.csproj.AssemblyReference.cache
+H:\СТП\Calc\Calc\obj\Debug\MainWindow.g.cs
+H:\СТП\Calc\Calc\obj\Debug\App.g.cs
+H:\СТП\Calc\Calc\obj\Debug\Calc_MarkupCompile.cache
+H:\СТП\Calc\Calc\obj\Debug\Calc_MarkupCompile.lref
+H:\СТП\Calc\Calc\obj\Debug\MainWindow.baml
+H:\СТП\Calc\Calc\obj\Debug\Calc.g.resources
+H:\СТП\Calc\Calc\obj\Debug\Calc.Properties.Resources.resources
+H:\СТП\Calc\Calc\obj\Debug\Calc.csproj.GenerateResource.cache
+H:\СТП\Calc\Calc\obj\Debug\Calc.csproj.CoreCompileInputs.cache
+H:\СТП\Calc\Calc\obj\Debug\Calc.exe
+H:\СТП\Calc\Calc\obj\Debug\Calc.pdb
